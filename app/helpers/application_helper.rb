@@ -15,6 +15,6 @@ module ApplicationHelper
     	end
 	end
 	def copyright_generator
-		GarbageViewTool::Renderer.copyright 'Arion Eriksson', 'All rights reserved'
+		DevcampViewTool::Renderer.copyright 'Arion Eriksson', 'All rights reserved'
 	end
 end
